@@ -1,0 +1,46 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Roboto+Slab:wght@300&display=swap');
+
+.titulo {
+    padding: center;
+    font-family: 'Roboto Slab', serif;
+    text-align: center;
+    }
+
+    .imagen{
+        position: relative;
+        display: inline-block;
+        padding-left: -20;
+    }
+     
+    
+    .centrado{
+        position: absolute;
+        top: 10%;
+        left: 50%;
+        font-family: 'Roboto Slab';
+        font-size: 400;
+    }
+
+
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 -15px;
+    }
+
+    .column {
+        flex: 1;
+        padding: 0 15px;
+    }
+
+    .column h2 {
+        font-size: 24px;
+        font-weight: bold;
+        margin-top: 0;
+    }
+
+    .column p {
+        font-size: 16px;
+        line-height: 1.5;
+        margin-top: 0;
