@@ -14,3 +14,34 @@ html {
     height: 40px;
     color: white;
   }
+
+  .navbar-custom {
+    background-color: #333;
+  }
+  
+  .navbar-custom form {
+    margin-left: auto;
+  }
+  
+  .navbar-custom input {
+    color: white;
+    background-color: #555;
+    border: none;
+  }
+  
+  .navbar-custom input:focus {
+    box-shadow: none;
+    outline: none;
+  }
+  
+  .navbar-custom button {
+    color: white;
+    background-color: #777;
+    border: none;
+  }
+  
+  .navbar-custom button:focus {
+    box-shadow: none;
+    outline: none;
+  }
+  
