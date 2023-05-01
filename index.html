@@ -39,7 +39,7 @@
                 >
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Acerca de nosotros</a>
+                <a class="nav-link" href="./pages/quienesSomos.html">Acerca de nosotros</a>
               </li>
               <li class="nav-item dropdown">
                 <a
@@ -54,17 +54,12 @@
                 <ul class="dropdown-menu"></ul>
               </li>
             </ul>
-            <form class="d-flex" role="search">
-              <input
-                class="form-control me-2"
-                type="search"
-                placeholder="Proximamente..."
-                aria-label="Proximamente..."
-              />
-              <button class="btn btn-outline-success" type="submit">
-                Search
-              </button>
+            <form class="d-flex" role="search" method="get" action="buscar.html">
+              <input class="form-control me-2" type="search" placeholder="Buscar..." name="titulo" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Buscar</button>
             </form>
+            
+            
           </div>
         </div>
       </nav>
@@ -80,28 +75,27 @@
         <div class="container">
           <div class="row">
             <div class="col mt-2">
-              <div class="card" style="width: 18rem">
-                <img src="img/shgp1n79.bmp" class="card-img-top" alt="..." />
+              <div class="card h-100" style="width: 18rem">
+                <img src="./img/ai-in-education-2.jpg" class="card-img-top" alt="..." />
                 <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
+                  <h5 class="card-title">La Inteligencia Artificial en la Educación</h5>
                   <p class="card-text">
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
+                   Las IAs en la educación
                   </p>
-                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                  <a href="./pages/articulo1.html" class="btn btn-primary">Leer mas</a>
                 </div>
               </div>
             </div>
 
             <div class="col mt-2">
-              <div class="card" style="width: 18rem">
+              <div class="card h-100" style="width: 18rem">
                 <img src="img/shgp1n79.bmp" class="card-img-top" alt="..." />
                 <div class="card-body">
                   <h5 class="card-title">
                     El futuro de la IA: hacia inteligencias artificiales
                     realmente inteligentes.
                   </h5>
-                  <p class="card-text">
+                  <p class="card-text text-truncate">
                     Este Articulo contiene algunas reflexiones sobre
                     inteligencia artificial (IA). En primer lugar, se explica la
                     distinción entre la IA fuerte y la débil, así como los
@@ -112,21 +106,20 @@
                     corporalidad como aspecto clave para conseguir una IA de
                     naturaleza general.
                   </p>
-                  <a href="./pages/ArticuloAI.html" class="btn btn-primary">Ver Mas</a>
+                  <a href="./pages/ArticuloAI.html" class="btn btn-primary">Leer mas</a>
                 </div>
               </div>
             </div>
 
             <div class="col mt-2">
-              <div class="card" style="width: 18rem">
+              <div class="card h-100" style="width: 18rem">
                 <img src="img/shgp1n79.bmp" class="card-img-top" alt="..." />
                 <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
+                  <h5 class="card-title">Mundo Optimo</h5>
                   <p class="card-text">
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
+                    La Inteligencia Artificial (IA) es una disciplina cuyos procedimientos aspiran a imitar la inteligencia.
                   </p>
-                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                  <a href="pages/articulo2.html" class="btn btn-primary">Leer mas</a>
                 </div>
               </div>
             </div>
@@ -143,5 +136,6 @@
       crossorigin="anonymous"
     ></script>
     <script src="js/app.js"></script>
+    <script src="js/barra-busqueda.js"></script>
   </body>
 </html>
